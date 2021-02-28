@@ -304,4 +304,4 @@ int getMinimumPenalty(std::string x, std::string y, int pxy, int pgap,
 }
 
 
-// g++ -fopenmp -o mmarasco-seqalignomp -O3 mmarasco-seqalignomp.cpp
+// g++ -o mmarasco-seqalignomp mmarasco-seqalignomp.cpp -O3 -fopenmp
