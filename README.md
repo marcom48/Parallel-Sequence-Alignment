@@ -20,5 +20,5 @@ g++ -fopenmp -o mmarasco-seqalignomp -O3 mmarasco-seqalignomp.cpp
 ## k-Sequence Alignment (OpenMP & OpenMPI)
 ```bash
 mpicxx -o mmarasco-seqalkway mmarasco-seqalkway.cpp -fopenmp -O3
-./mmarasco-seqalkway < 12-30000.dat
+mpiexec mmarasco-seqalkway < 12-30000.dat
 ```
